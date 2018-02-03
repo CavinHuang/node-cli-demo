@@ -1,0 +1,29 @@
+{
+  "name": "cli-demo",
+  "version": "0.0.1",
+  "description": "node-cli demo ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CavinHuang/node-cli-demo.git"
+  },
+  "keywords": [
+    "node-cli",
+    "javascript"
+  ],
+  "bin": {
+    "hi": "./bin/hi.js"
+  },
+  "author": "sujinw@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CavinHuang/node-cli-demo/issues"
+  },
+  "homepage": "https://github.com/CavinHuang/node-cli-demo#readme",
+  "dependencies": {
+    "commander": "^2.13.0"
+  }
+}
